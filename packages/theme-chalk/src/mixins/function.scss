@@ -1,7 +1,9 @@
 // 加入var的名字
 // joinVarName(('button', 'text-color')) => '--e-button-text-color'
 @function joinVarName($list) {
-  $name: "--" + config.$namespace;
+  //需要修订下
+  //$name: "--" + config.$namespace;
+  $name: "--e";
   @each $item in $list {
     @if $item != "" {
       $name: $name + "-" + $item;

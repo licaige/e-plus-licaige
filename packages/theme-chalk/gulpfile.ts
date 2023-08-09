@@ -30,6 +30,7 @@ function buildThemeChalk() {
     .pipe(autoprefixer({ cascade: false }))
     .pipe(
       cleanCSS({}, (details) => {
+          // 可以清晰地看到，每个文件的压缩大小
         consola.success(
           `${chalk.cyan(details.name)}: ${chalk.yellow(
             details.stats.originalSize / 1000

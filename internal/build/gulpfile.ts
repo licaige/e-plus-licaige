@@ -12,6 +12,7 @@ import { withTaskName, run } from "./src/utils";
  * 5. 生成一个组件库
  * 6. 发布组件
  */
+// 可以先尝试一下删除根目录中的 dist
 export default series(
   withTaskName("clean", async () => run("rm -rf ./dist")) // 删除dist目录
 );
