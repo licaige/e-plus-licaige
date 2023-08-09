@@ -30,12 +30,12 @@
     "rollup": "^2.75.7",
     "rollup-plugin-esbuild": "^4.9.1",
     "ts-morph": "^14.0.0",
-    "unplugin-vue-define-options": "^0.6.1"
+    "unplugin-vue-define-options": "^1.2.1"
   },
   "devDependencies": {
     "@esbuild-kit/cjs-loader": "^2.2.1",
     "@pnpm/types": "^8.4.0",
     "unbuild": "^0.7.4",
-    "vue": "^3.2.37"
+    "vue": "^3.3.4"
   }
 }
